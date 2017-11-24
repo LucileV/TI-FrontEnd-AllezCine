@@ -1,3 +1,11 @@
+# Notre Trello : https://trello.com/b/dPSGMU2z/do-to
+
+
+
+
+
+
+
 # Travail Intégration
 
 Ce que nous appelons un travail d'intégration, c'est un travail avec des consignes à respecter impérativement. Les TI conclut une période d'apprentissage et vous permette de mettre en pratique ce que vous avez appris. Ils permettent également à vos formateurs de vous évaluer, savoir où vous avez encore des difficultés et savoir quels sont vos acquis. Enfin, ces travaux, s'ils sont réalisés correctement, peuvent faire partie d'un portfolio que vous pourriez montrer à un employeur.
