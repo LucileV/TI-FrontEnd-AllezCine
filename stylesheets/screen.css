@@ -275,18 +275,19 @@ body section h4.latest-text {
   margin-bottom: 1em;
   margin-top: 1em;
   padding: 0.3em 0.5em;
+  text-align: left;
 }
-/* line 265, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 body section ul#myTab {
   border: none;
   margin-bottom: 2em;
 }
-/* line 268, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 body section ul#myTab li {
   float: left;
   margin-bottom: -1px;
 }
-/* line 272, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 body section ul#myTab li a {
   background: #f3f1f1;
   border: none;
@@ -298,10 +299,53 @@ body section ul#myTab li a {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-/* line 284, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 body section ul#myTab li a:hover, body section ul#myTab li a:focus {
   background-color: #FF8D1B;
   border: none;
   border-radius: 0;
   color: #fff !important;
+}
+/* line 305, ../sass/screen.scss */
+body .container {
+  text-align: center;
+}
+/* line 310, ../sass/screen.scss */
+body .container .date {
+  text-align: left;
+}
+/* line 315, ../sass/screen.scss */
+body .container .plusDeFilms {
+  margin-top: 50px;
+}
+/* line 321, ../sass/screen.scss */
+body .container .bt_plus {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #FF8D1B;
+  text-align: center;
+  padding: 15px 40px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 50px;
+}
+/* line 339, ../sass/screen.scss */
+body .container .film h6 a {
+  margin-top: 10px !important;
+  padding-bottom: 5px;
+  color: black;
+  display: block;
+  text-align: center;
+}
+/* line 350, ../sass/screen.scss */
+body .container .film .details_films {
+  margin-bottom: 30px;
+  display: block;
+}
+/* line 365, ../sass/screen.scss */
+body footer {
+  background: #212121;
+  padding: 4em 0;
 }

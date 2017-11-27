@@ -248,7 +248,7 @@ body {
 
 	}
 
-	section {
+	section{
 
 			h4.latest-text {
 		    border-left: 5px solid #ff8d1b;
@@ -258,9 +258,15 @@ body {
 		    margin-bottom: 1em;
 		    margin-top: 1em;
 		    padding: 0.3em 0.5em;
+		    text-align: left;
 
+
+			
 		    
 			}
+
+
+
 
 			ul#myTab {
 			    border: none;
@@ -293,10 +299,75 @@ body {
 
 					}
 
-	}
+				}
+
+
+		.container {
+
+
+			text-align: center;
+
+				.date {
+					text-align: left;
+				}
+
+
+				.plusDeFilms {
+					margin-top: 50px;
+					
+
+				}
+
+				.bt_plus {
+				color: #fff;
+				display: inline-block;
+				text-transform: uppercase;
+				text-decoration: none;
+				background: #FF8D1B;
+				text-align: center;
+				padding: 15px 40px;
+				font-weight: bold;	
+				margin: auto;	
+				margin-bottom: 50px;	 
+ 	           }
 
 
 
+				
+			.film {
+				
+					h6 a {
+
+						margin-top: 10px !important;
+						padding-bottom:5px;
+						color: black;
+						display: block;
+						text-align: center;
+
+								
+						}
+
+			.details_films {
+								margin-bottom: 30px;
+								display: block;
+							}
+			
+
+		
+			}
 
 
+
+		}
+
+		
+
+		footer {
+
+			background: #212121;
+			padding: 4em 0;
+		}
+
+	
+	
 }
