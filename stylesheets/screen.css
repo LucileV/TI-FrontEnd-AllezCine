@@ -168,55 +168,55 @@ body .header .container .enregistrement li a {
   padding: 6px 30px;
   font-weight: bold;
 }
-/* line 137, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 body .navbar {
   margin-bottom: 0px;
 }
-/* line 146, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 body .movies_nav {
   background: #FF8D1B;
 }
-/* line 149, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 body .movies_nav .navbar-default {
   background: none;
   border: none;
 }
-/* line 154, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 body .movies_nav .navbar-left {
   float: none !important;
 }
-/* line 158, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 body .movies_nav .navbar-nav {
   float: none;
   margin: 0;
 }
-/* line 163, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 body .movies_nav .navbar-nav li {
   float: left;
   border-right: 1px dotted #fff;
   width: 14.27%;
   text-align: center;
 }
-/* line 170, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 body .movies_nav .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 174, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 body .movies_nav .navbar-nav li a:hover {
   color: #fff;
   background-color: #212121;
 }
-/* line 179, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 body .movies_nav .navbar-nav li a:focus {
   color: #fff;
   background-color: #212121;
 }
-/* line 187, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 body .movies_nav .navbar-nav li:active {
   border-right: none;
 }
-/* line 194, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -241,7 +241,7 @@ body .movies_nav .navbar-nav .open .dropdown-menu {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.175);
 }
-/* line 220, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li {
   background-color: #FF8D1B;
   width: 100%;
@@ -249,20 +249,59 @@ body .movies_nav .navbar-nav .open .dropdown-menu li {
   border-right: 0px;
   padding: 10px 15px;
 }
-/* line 227, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li a {
   display: block;
 }
-/* line 231, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li a:hover {
   display: block;
   background-color: #FF8D1B;
 }
-/* line 236, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li a:focus {
   background-color: #FF8D1B;
 }
-/* line 249, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 body .movies_nav .navbar-collapse.collapse {
   width: 100%;
+}
+/* line 253, ../sass/screen.scss */
+body section h4.latest-text {
+  border-left: 5px solid #ff8d1b;
+  font-size: 2em;
+  color: #212121;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0.3em 0.5em;
+}
+/* line 265, ../sass/screen.scss */
+body section ul#myTab {
+  border: none;
+  margin-bottom: 2em;
+}
+/* line 268, ../sass/screen.scss */
+body section ul#myTab li {
+  float: left;
+  margin-bottom: -1px;
+}
+/* line 272, ../sass/screen.scss */
+body section ul#myTab li a {
+  background: #f3f1f1;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  color: black;
+  padding: 10px 20px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 284, ../sass/screen.scss */
+body section ul#myTab li a:hover, body section ul#myTab li a:focus {
+  background-color: #FF8D1B;
+  border: none;
+  border-radius: 0;
+  color: #fff !important;
 }
