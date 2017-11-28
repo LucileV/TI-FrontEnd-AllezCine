@@ -357,42 +357,41 @@ body {
 								
 						}
 
-			.details_films {
-								margin-bottom: 30px;
-								display: block;
-							}
-			
-			.date {
-				 font-size: 0.8em;
-				 float: left;
+						.details_films {
+											margin-bottom: 30px;
+											display: block;
+										}
+						
+						.date {
+							 font-size: 0.8em;
+							 float: left;
 
-			}
+						}
 
-			.prix {
-				 font-size: 0.8em;
-				 color: $orange;
-				 float: right;
-				 padding-right:20px;
+						.prix {
+							 font-size: 0.8em;
+							 color: $orange;
+							 float: right;
+							 padding-right:20px;
 
-			}
+						}
 
-			.col-md-2 {
-	
-   				 padding: 0px;
-   				}
+						.col-md-2 {
+				
+			   				 padding: 0px;
+   					  }
 
-			}
+					}
 
 
 
 		}
 
-
 		//contact 
-		
+	
 		.contact {
 
-			margin-bottom: 3em;
+			margin-bottom: 3em;	
 
 			.carre_noir {
 				
@@ -404,10 +403,7 @@ body {
 				color: white;
 				text-align: left;
 
-					h2{
-						font-size: 20px;
-						
-					}
+					h2{font-size: 20px;}
 
 					ul {
 						padding-top: 15px;
@@ -421,14 +417,12 @@ body {
 									&:hover {color: $orange;}		
 								 }
 						  	}
+				
+						}
+
 					}
 
-			}
-
-		
-
-
-		}
+				}
 
 
 
@@ -441,83 +435,83 @@ body {
 			padding: 4em 0;
 			color: white;
 
-				h2 {
-				    font-size: 2em;
-				    color: #FF8D1B;
-				    text-transform: uppercase;
-				    font-style: normal;
-				    margin-bottom: .5em;
-				    
-				}
-
-				input[type="email"] {
-				    outline: none;
-				    padding: 10px 10px;
-				    font-size: 14px;
-				    color: #999;
-				    width: 74.1%;
-				    background: #fff;
-				    border: none;
-				}
-
-				input[type="submit"] {
-				    outline: none;
-				    width: 25%;
-				    background: #FF8D1B;
-				    font-size: 14px;
-				    text-transform: uppercase;
-				    color: #fff;
-				    border: none;
-				    padding: 10px 0;
-
-				}
-
-				.footer_contour {
-				   
-				    border: 1px solid #fff;
-				    padding: 10px;
-				}
-
-				
-				.footer_grille {
-				    padding-bottom: 2em;
-				    border-bottom: 1px solid #999;
-				    margin-bottom: 2em;
-				}
-				
-				.footer_left {
-
-
-
-						p {
-					    color: #999;
-					    line-height: 1.8em;
-						}
-
-
-
-				}
-
-
-
-				.footer_right {
-
-				    text-align: right;
-
-				    	li {
-						    display: inline-block;
-						    margin-left: 2em;
-
-								    a {
-									    color: #fff;
-									    text-decoration: none;
-									    text-transform: uppercase;
-									 }
-
-						 }
-				 
-				
+					h2 {
+					    font-size: 2em;
+					    color: #FF8D1B;
+					    text-transform: uppercase;
+					    font-style: normal;
+					    margin-bottom: .5em;
+					    
 					}
+
+					input[type="email"] {
+					    outline: none;
+					    padding: 10px 10px;
+					    font-size: 14px;
+					    color: #999;
+					    width: 74.1%;
+					    background: #fff;
+					    border: none;
+					}
+
+					input[type="submit"] {
+					    outline: none;
+					    width: 25%;
+					    background: #FF8D1B;
+					    font-size: 14px;
+					    text-transform: uppercase;
+					    color: #fff;
+					    border: none;
+					    padding: 10px 0;
+
+					}
+
+					.footer_contour {
+					   
+					    border: 1px solid #fff;
+					    padding: 10px;
+					}
+
+					
+					.footer_grille {
+					    padding-bottom: 2em;
+					    border-bottom: 1px solid #999;
+					    margin-bottom: 2em;
+					}
+					
+					.footer_left {
+
+
+
+							p {
+						    color: #999;
+						    line-height: 1.8em;
+							}
+
+
+
+					}
+
+
+
+					.footer_right {
+
+					    text-align: right;
+
+					    	li {
+							    display: inline-block;
+							    margin-left: 2em;
+
+									    a {
+										    color: #fff;
+										    text-decoration: none;
+										    text-transform: uppercase;
+										 }
+
+							 }
+					 
+					
+						}
 
 				}
 
@@ -526,45 +520,46 @@ body {
 
 			.shop_haut {
 
-				padding-bottom: 15px;
-				color: white;
-				text-align: left;
+						padding-bottom: 15px;
+						color: white;
+						text-align: left;
 
-					.title {
-				    text-transform: uppercase;
-				    font-size: 1.3em;
-				    color: #212121;
-				    font-weight: bold;
-				    padding-bottom: 1em;
+							.title {
+						    text-transform: uppercase;
+						    font-size: 1.3em;
+						    color: #212121;
+						    font-weight: bold;
+						    padding-bottom: 1em;
+							}
+
+							.image_gauche {
+								padding:0px;
+							}
+							
+							.rectangle_orange {
+						    background: $orange;
+						    min-height: 312px;
+						    padding: 3em 3em 3em;
+						    margin-bottom: 15px;
+						    width: 48.6%;
+
+
+							.slides img {
+								    width: 100%;
+								    display: block;
+							}
+
+
+						}
+					.shop_bas{
+
+
 					}
-
-					.image_gauche {
-						padding:0px;
-					}
-					
-					.rectangle_orange {
-				    background: $orange;
-				    min-height: 312px;
-				    padding: 3em 3em 3em;
-				    margin-bottom: 15px;
-				    width: 48.6%;
-
-
-					.slides img {
-						    width: 100%;
-						    display: block;
-					}
-
-
-			}
-			.shop_bas{
-
-
-			}
 		
 
+				}
 
-		}
+				
 		
 }
 
