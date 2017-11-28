@@ -20,6 +20,9 @@
 	<!-- TO TOP CSS -->
 	<link href="css/toTop.css" rel="stylesheet">
 
+	<!-- LOGIN CSS -->
+	<link href="css/login.css" rel="stylesheet">
+
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
 
@@ -41,7 +44,32 @@
 			<div class="enregistrement">
 				<ul>
 					<li><i class="fa fa-phone" aria-hidden="true"></i> (+000) 123 345 653</li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+					<li>
+						<button onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</button>
+
+						<div id="login" class="modal">
+
+						  <form class="modal-content animate" action="/login.php">
+
+
+						    <div class="container">
+						      <label><b>Username</b></label>
+						      <input type="text" placeholder="Enter Username" name="uname" required>
+
+						      <label><b>Password</b></label>
+						      <input type="password" placeholder="Enter Password" name="psw" required>
+
+						      <button type="submit">Login</button>
+						      <input type="checkbox" checked="checked"> Remember me
+						    </div>
+
+						    <div class="container" style="background-color:#f1f1f1">
+						      <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+						      <span class="psw">Forgot <a href="#">password?</a></span>
+						    </div>
+						  </form>
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -876,11 +904,6 @@
 
 		<div class="container">
 			<h4 class="latest-text w3_latest_text">SHOP Movies</h4>
-
-		</div>
-
-</section>
-<!-- Fin de 3eme section -->
 			<div class="slider">
 
 				<div class="shop_movies">
@@ -900,11 +923,11 @@
 									<p class="fexi_header_para"><span>Date de sortie<label>:</label></span> May 10, 2016 </p>
 									<p class="fexi_header_para">
 										<span>Genres<label>:</label> </span>
-										<a href="genres.html">Action</a> |
+										<a href="genres.html">Action</a> | 
 										<a href="genres.html">Aventure</a>
 									</p>
 									<label>Prix :</label></span> 17 Euros </p>
-
+									
 								</div>
 							</div>
 							<div class="shop_bas">
@@ -1038,7 +1061,7 @@
 											<!-- Fin d'1 film-->
 
 								   		 </div>
-
+								
 							</div>
 						</li>
 					</ul>
@@ -1054,7 +1077,7 @@
 
 		<div class="container contact">
 			<h4 class="latest-text w3_latest_text">CONTACT US</h4>
--
+
 		
 			<div class="col-md-3 carre_noir">
 				<h2>Adresse</h2>
@@ -1153,6 +1176,7 @@
 <!-- AGE VERIFICATION -->
 <script type="text/javascript" src="js/age-verification.js"></script>
 <script type="text/javascript" src="js/toTop.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
 <script src="js/bootstrap.min.js"></script>
