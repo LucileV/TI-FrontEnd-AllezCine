@@ -248,6 +248,7 @@ body {
 
 	}
 
+		
 	section{
 
 			h4.latest-text {
@@ -335,6 +336,12 @@ body {
 
 				
 			.film {
+
+					.img-responsive{
+				    
+				   		 height: 220px;
+					}
+
 				
 					h6 a {
 
@@ -367,6 +374,59 @@ body {
 			background: #212121;
 			padding: 4em 0;
 		}
+
+
+
+		//Shop movies
+		.shop_movies {
+
+			.shop_haut {
+
+				padding-bottom: 15px;
+				color: white;
+				text-align: left;
+
+					.title {
+				    text-transform: uppercase;
+				    font-size: 1.3em;
+				    color: #212121;
+				    font-weight: bold;
+				    padding-bottom: 1em;
+					}
+
+					.image_gauche {
+						padding:0px;
+					}
+					
+					.rectangle_orange {
+				    background: $orange;
+				    min-height: 313px;
+				    padding: 3em 3em 3em;
+				    margin-bottom: 15px;
+				    width: 48.6%;
+
+
+					.slides img {
+						    width: 100%;
+						    display: block;
+					}
+
+
+			}
+			.shop_bas{
+
+
+			}
+		
+
+
+		}
+		
+}
+
+
+
+
 
 	
 	
