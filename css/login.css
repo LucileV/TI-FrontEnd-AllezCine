@@ -9,7 +9,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+/*button {
     background-color: #ff8d1b;
     color: white;
     padding: 14px 20px;
@@ -17,7 +17,7 @@ button {
     border: none;
     cursor: pointer;
     width: 100%;
-}
+}*/
 
 button:hover {
     opacity: 0.8;
