@@ -369,18 +369,110 @@ body .container .film .prix {
 body .container .film .col-md-2 {
   padding: 0px;
 }
-/* line 392, ../sass/screen.scss */
+/* line 395, ../sass/screen.scss */
+body .contact .carre_noir {
+  width: 23%;
+  background: #212121;
+  margin-right: 15px;
+  height: 200px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 405, ../sass/screen.scss */
+body .contact .carre_noir h2 {
+  font-size: 20px;
+}
+/* line 410, ../sass/screen.scss */
+body .contact .carre_noir ul {
+  padding-top: 15px;
+}
+/* line 413, ../sass/screen.scss */
+body .contact .carre_noir ul li {
+  padding-top: 15px;
+  font-size: 15px;
+}
+/* line 417, ../sass/screen.scss */
+body .contact .carre_noir ul li a {
+  color: white;
+}
+/* line 419, ../sass/screen.scss */
+body .contact .carre_noir ul li a:hover {
+  color: #FF8D1B;
+}
+/* line 436, ../sass/screen.scss */
 body footer {
   background: #212121;
   padding: 4em 0;
+  color: white;
 }
-/* line 403, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
+body footer h2 {
+  font-size: 2em;
+  color: #FF8D1B;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: .5em;
+}
+/* line 451, ../sass/screen.scss */
+body footer input[type="email"] {
+  outline: none;
+  padding: 10px 10px;
+  font-size: 14px;
+  color: #999;
+  width: 74.1%;
+  background: #fff;
+  border: none;
+}
+/* line 461, ../sass/screen.scss */
+body footer input[type="submit"] {
+  outline: none;
+  width: 25%;
+  background: #FF8D1B;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+}
+/* line 473, ../sass/screen.scss */
+body footer .footer_contour {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+/* line 480, ../sass/screen.scss */
+body footer .footer_grille {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #999;
+  margin-bottom: 2em;
+}
+/* line 490, ../sass/screen.scss */
+body footer .footer_left p {
+  color: #999;
+  line-height: 1.8em;
+}
+/* line 501, ../sass/screen.scss */
+body footer .footer_right {
+  text-align: right;
+}
+/* line 505, ../sass/screen.scss */
+body footer .footer_right li {
+  display: inline-block;
+  margin-left: 2em;
+}
+/* line 509, ../sass/screen.scss */
+body footer .footer_right li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 525, ../sass/screen.scss */
 body .shop_movies .shop_haut {
   padding-bottom: 15px;
   color: white;
   text-align: left;
 }
-/* line 409, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 body .shop_movies .shop_haut .title {
   text-transform: uppercase;
   font-size: 1.3em;
@@ -388,11 +480,11 @@ body .shop_movies .shop_haut .title {
   font-weight: bold;
   padding-bottom: 1em;
 }
-/* line 417, ../sass/screen.scss */
+/* line 539, ../sass/screen.scss */
 body .shop_movies .shop_haut .image_gauche {
   padding: 0px;
 }
-/* line 421, ../sass/screen.scss */
+/* line 543, ../sass/screen.scss */
 body .shop_movies .shop_haut .rectangle_orange {
   background: #FF8D1B;
   min-height: 312px;
@@ -400,7 +492,7 @@ body .shop_movies .shop_haut .rectangle_orange {
   margin-bottom: 15px;
   width: 48.6%;
 }
-/* line 429, ../sass/screen.scss */
+/* line 551, ../sass/screen.scss */
 body .shop_movies .shop_haut .rectangle_orange .slides img {
   width: 100%;
   display: block;
