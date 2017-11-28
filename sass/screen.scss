@@ -24,6 +24,8 @@ body {
 
 		.container {
 
+			width: 80%;
+
 				.logo{
 
 					 float: left;
@@ -125,13 +127,10 @@ body {
 
 					}
 
-	}
+
+		}
 
 	}
-
-
-
-	
 
 
 	.navbar {
@@ -139,8 +138,6 @@ body {
 		margin-bottom: 0px;
 
 	}
-
-
 
 
 	.movies_nav {
@@ -251,8 +248,206 @@ body {
 				}
 
 
-
-
 	}
 
+		
+	section{
+
+			h4.latest-text {
+		    border-left: 5px solid #ff8d1b;
+		    font-size: 2em;
+		    color: #212121;
+		    text-transform: uppercase;
+		    margin-bottom: 1em;
+		    margin-top: 1em;
+		    margin-left: -100px;
+		    padding: 0.3em 0.5em;
+		    text-align: left;
+
+
+			
+		    
+			}
+
+
+
+
+			ul#myTab {
+			    border: none;
+			    margin-bottom: 2em;
+			    	li{
+			    	float: left;
+					margin-bottom: -1px;
+
+						   a{
+
+							background: #f3f1f1;
+							border: none;
+							border-radius: 0;
+							font-size: 16px;
+							color: black;
+							padding: 10px 20px;
+							-webkit-transition: all 0.3s ease-in-out 0s;
+							-o-transition: all 0.3s ease-in-out 0s;
+							transition: all 0.3s ease-in-out 0s;
+
+									&:hover, &:focus{
+										background-color: #FF8D1B;
+										border: none;
+										border-radius: 0;
+										color: #fff !important;
+									       }
+							}
+
+						}
+
+					}
+
+				}
+
+
+		.container {
+
+
+			text-align: center;
+
+				.date {
+					text-align: left;
+				}
+
+
+				.plusDeFilms {
+					margin-top: 50px;
+					
+
+				}
+
+				.bt_plus {
+				color: #fff;
+				display: inline-block;
+				text-transform: uppercase;
+				text-decoration: none;
+				background: #FF8D1B;
+				text-align: center;
+				padding: 15px 40px;
+				font-weight: bold;	
+				margin: auto;	
+				margin-bottom: 50px;	 
+ 	           }
+
+
+
+				
+			.film {
+
+					.img-responsive{
+				    
+				   		 height: 230px;
+					}
+
+				
+					h6 a {
+
+						margin-top: 10px !important;
+						padding-bottom:5px;
+						color: black;
+						display: block;
+						text-align: center;
+
+								
+						}
+
+			.details_films {
+								margin-bottom: 30px;
+								display: block;
+							}
+			
+			.date {
+				 font-size: 0.8em;
+				 float: left;
+
+			}
+
+			.prix {
+				 font-size: 0.8em;
+				 color: $orange;
+				 float: right;
+				 padding-right:20px;
+
+			}
+
+			.col-md-2 {
+	
+   				 padding: 0px;
+   				}
+
+			}
+
+
+
+		}
+
+		
+
+		footer {
+
+			background: #212121;
+			padding: 4em 0;
+		}
+
+
+
+		//Shop movies
+		.shop_movies {
+
+			.shop_haut {
+
+				padding-bottom: 15px;
+				color: white;
+				text-align: left;
+
+					.title {
+				    text-transform: uppercase;
+				    font-size: 1.3em;
+				    color: #212121;
+				    font-weight: bold;
+				    padding-bottom: 1em;
+					}
+
+					.image_gauche {
+						padding:0px;
+					}
+					
+					.rectangle_orange {
+				    background: $orange;
+				    min-height: 312px;
+				    padding: 3em 3em 3em;
+				    margin-bottom: 15px;
+				    width: 48.6%;
+
+
+					.slides img {
+						    width: 100%;
+						    display: block;
+					}
+
+
+			}
+			.shop_bas{
+
+
+			}
+		
+
+
+		}
+		
+}
+
+
+
+
+
+	
+	
 }
