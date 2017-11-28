@@ -395,7 +395,7 @@ body .shop_movies .shop_haut .image_gauche {
 /* line 421, ../sass/screen.scss */
 body .shop_movies .shop_haut .rectangle_orange {
   background: #FF8D1B;
-  min-height: 313px;
+  min-height: 312px;
   padding: 3em 3em 3em;
   margin-bottom: 15px;
   width: 48.6%;
