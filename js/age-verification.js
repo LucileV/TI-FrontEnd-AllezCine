@@ -1,4 +1,3 @@
-
 var modal_content,
 modal_screen;
 
