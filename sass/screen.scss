@@ -406,19 +406,40 @@ body {
 					h2{font-size: 20px;}
 
 					ul {
-						padding-top: 15px;
+						padding-top: 10px;
 
 						li{
-							padding-top: 15px;
+							padding-top: 10px;
 							font-size: 15px;
 
 								a {
 									color: white;
 									&:hover {color: $orange;}		
 								 }
+								 .btn:hover {
+								 	color: white;
+								 }
 						  	}
 				
 						}
+
+					.rond_orange {
+
+						width: 50px;
+						height: 50px;
+						-webkit-border-radius: 50px;
+						-moz-border-radius: 50px;
+						border-radius: 50px;
+						background-color: $orange;
+						text-align: center;
+						line-height: 55px;
+						margin: auto;
+						margin-top: -45px;
+
+							i {
+								font-size: 25px;
+							}
+					}
 
 					}
 
