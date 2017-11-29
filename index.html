@@ -23,6 +23,13 @@
 	<!-- LOGIN CSS -->
 	<link href="css/login.css" rel="stylesheet">
 
+	<!-- SLIDE -->
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery Slidey 0.0.1 -->
+	<link href="slide/jquery.slidey.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
 
@@ -134,6 +141,42 @@
   </nav>
 </div>
 <!-- Social END -->
+
+<!-- SLIDE Content -->
+<div class="container">
+
+		<div class="row">
+				<div class="col-lg-12 text-center">
+						<div id="slidey" style="display:none;">
+								<ul>
+										<li><img src="images/2.jpg"><p class='title'>Star Wars</p><p class='description'>After rescuing Han Solo from the palace of Jabba the Hutt, the rebels attempt to destroy the second Death Star, while Luke struggles to make Vader return from the dark side of the Force.</p></li>
+										<li><img src="images/3.jpg"><p class='title'>Silicon Valley</p><p class='description'>Mike Judge brings his irreverent brand of humor to HBO in the new comedy series SILICON VALLEY. Partially inspired by Judge's own experiences as a Silicon Valley engineer in the late '80s, the show is a collaboration between Judge and Alec Berg.</p></li>
+										<li><img src="images/4.jpg"><p class='title'>Fringe</p><p class='description'>The Fringe team explore the blurring line between the possible and the impossible. They are encountering glitches in the world they are living in, face threats from a parallel universe and try to prevent events that will lead to the destruction of their own universe.</p></li>
+										<li><img src="images/5.jpg"><p class='title'>Assassin's Creed</p><p class='description'>When Callum Lynch (Michael Fassbender) explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.</p></li>
+										<li><img src="images/6.jpg"><p class='title'>Star Wars</p><p class='description'>Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p></li>
+										<li><img src="images/7.jpg"><p class='title'>Continuum</p><p class='description'>Continuum is a one-hour police drama centered on Kiera Cameron, a regular cop from 65 years in the future who finds herself trapped in present day Vancouver. She is alone, a stranger in a strange land. </p></li>
+								</ul>
+						</div>
+				</div>
+		</div>
+		<!-- /.row -->
+</div>
+<!-- /.container -->
+<script type="text/javascript">
+	$(function(){
+		$("#slidey").slidey({
+				interval: 3000,
+				listCount: 5,
+				showList: true
+		});
+		$(".slidey-list-description").dotdotdot();
+	})
+</script>
+
+
+
+
+<!-- //SLIDE CONTENT -->
 
 <!-- 1er section -->
 <section class="general">
@@ -1167,6 +1210,10 @@
 <script type="text/javascript" src="js/toTop.js"></script>
 <script type="text/javascript" src="js/login.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+
+<!-- SLIDE -->
+<script src="js/jquery.slidey.js"></script>
+<script src="slide/jquery.dotdotdot.min.js"></script>
 
 <script src="js/bootstrap.min.js"></script>
 </body>
