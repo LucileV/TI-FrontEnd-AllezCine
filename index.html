@@ -52,7 +52,34 @@
 			<div class="enregistrement">
 				<ul>
 					<li><i class="fa fa-phone" aria-hidden="true"></i> (+000) 123 345 653</li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+
+					<li class"login">
+						<button onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</button>
+
+						<div id="login" class="modal">
+
+						  <form class="modal-content animate" action="/login.php">
+
+
+						    <div class="containerLogin">
+						      <label><b>Username</b></label>
+						      <input type="text" placeholder="Enter Username" name="uname" required>
+
+						      <label><b>Password</b></label>
+						      <input type="password" placeholder="Enter Password" name="psw" required>
+
+						      <button type="submit">Login</button>
+						      <input type="checkbox" checked="checked"> Remember me
+						    </div>
+
+
+						    <div class="containerCancel" style="background-color:#f1f1f1">
+						      <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+						      <span class="psw"><a href="#">password?</a></span>
+						    </div>
+						  </form>
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -1090,15 +1117,12 @@
 <!-- AGE VERIFICATION -->
 <script type="text/javascript" src="js/age-verification.js"></script>
 
-<<<<<<< HEAD
+
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/toTop.js"></script>
-=======
 <!-- SLIDE -->
 <script src="js/jquery.slidey.js"></script>
 <script src="slide/jquery.dotdotdot.min.js"></script>
-
->>>>>>> 53049d747eeb6562876badec26e6dd46de94b991
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
