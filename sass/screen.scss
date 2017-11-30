@@ -387,12 +387,28 @@ body {
 				.carousel {
 				    margin-bottom: 0;
 				    margin-top: 40px;
-				    padding: 10px;
+				    padding: 20px;
 				    border: solid 1px #dadada;
 				 	 display: -webkit-flex; /* Safari */
 				    -webkit-align-items: center; /* Safari 7.0+ */
 				    display: flex;
 				    align-items: center;
+				    margin-left: 37px;
+
+				    	.col-md-2-5 {
+				    		 position: relative;
+							 float: left;
+							 width: 20%;
+							 padding-left: 15px;
+							 padding-right: 15px;
+						}
+
+						.col-md-11{
+
+							
+							width: 90%;
+
+						}		
 
 				}
 				
