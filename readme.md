@@ -2,6 +2,8 @@
 
 # Notre site git : https://lucilev.github.io/TI-FrontEnd-AllezCine/
 
+# Qui a fait quoi?  : https://github.com/LucileV/TI-FrontEnd-AllezCine/projects/1
+
 
 
 
