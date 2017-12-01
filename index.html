@@ -473,14 +473,20 @@
 			<h4 class="latest-text w3_latest_text">Featured Movies</h4>
 			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 				<ul id="myTab" class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Tous</a></li>
-					<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Actions</a></li>
-					<li role="presentation"><a href="#rating" id="rating-tab" role="tab" data-toggle="tab" aria-controls="rating" aria-expanded="true">Policiers</a></li>
+					<li role="presentation" class="active">
+						<a href="#home" id="tous_films" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Tous</a>
+					</li>
+					<li role="presentation">
+						<a href="#profile" role="tab" id="action_films" data-toggle="tab" aria-controls="profile" aria-expanded="false">Actions</a>
+					</li>
+					<li role="presentation">
+						<a href="#rating" role="tab" data-toggle="tab" aria-controls="rating" aria-expanded="true" id="policier_films" >Policiers</a>
+					</li>
 				</ul>
 				<div id="myTabContent" class="tab-content">
 
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 
 								<a href="details.html" class=""><img src="images/film1.jpg" title="album-name" class="img-responsive" alt=" " />
@@ -498,7 +504,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film2.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -514,7 +520,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film3.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -530,7 +536,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film4.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -545,7 +551,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film5.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -561,7 +567,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film6.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -577,7 +583,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film7.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -593,7 +599,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film8.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 								</a>
@@ -609,7 +615,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 							<a href="details.html" class=""><img src="images/film9.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 							</a>
@@ -625,7 +631,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 							<a href="details.html" class=""><img src="images/film10.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 							</a>
@@ -641,7 +647,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 							<a href="details.html" class=""><img src="images/film11.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 							</a>
@@ -657,7 +663,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 							<a href="details.html" class=""><img src="images/film12.jpg" title="God’s Compass" class="img-responsive" alt=" " />
 							</a>
@@ -675,10 +681,10 @@
 				    </div>
 
  
-			   <div class="container"><a href="#plusDeFilms" class="bt_plus" data-toggle="collapse" aria-expanded="false">PLUS DE FILMS</a></div>
+			   <div class="container"><a href="#plusDeFilms" id="plusDeFilms" class="bt_plus" data-toggle="collapse" aria-expanded="false">PLUS DE FILMS</a></div>
 			   <div id="plusDeFilms" class="collapse">
 			   		<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film2.jpg" title="Moana" class="img-responsive" alt=" " />
 								</a>
@@ -694,7 +700,7 @@
 						</div>
 					<!-- Fin d'1 film-->
 					<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film4.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -710,7 +716,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film9.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -726,7 +732,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film3.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -742,7 +748,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film8.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -758,7 +764,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film11.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -774,7 +780,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film2.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -790,7 +796,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film6.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -806,7 +812,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film8.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -822,7 +828,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film10.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -838,7 +844,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film policier_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film12.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>
@@ -854,7 +860,7 @@
 						</div>
 						<!-- Fin d'1 film-->
 						<!-- 1 film -->
-						<div class="film">
+						<div class="film action_film">
 							<div class="col-md-2 grille_films">
 								<a href="details.html" class=""><img src="images/film1.jpg" title="Durty Grandpa" class="img-responsive" alt=" " />
 								</a>

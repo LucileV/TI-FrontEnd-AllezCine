@@ -38,3 +38,33 @@ $(this).closest(".less").prev().stop(true).slideDown("1000");
 jQuery('.button-read-less').click(function () {
 $(this).closest('.less').removeClass('active');
 $(this).closest(".less").prev().stop(true).slideUp("1000");
+});
+
+
+
+
+// trie
+// tous les films
+$('#tous_films').click(function() {
+
+  $('.policier_film').show()
+  $('.action_film').show()
+
+})
+
+
+// policiers
+$('#policier_films').click(function() {
+
+  $('.policier_film').show()
+  $('.action_film').hide()
+})
+
+// Action
+$('#action_films').click(function() {
+
+  $('.policier_film').hide()
+  $('.action_film').show()
+})
+
+
