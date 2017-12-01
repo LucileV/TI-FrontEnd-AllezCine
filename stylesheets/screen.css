@@ -144,24 +144,25 @@ body .header .container .search input[type="submit"] {
   width: 22%;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
+  margin-top: 8px;
 }
-/* line 99, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 body .header .container .enregistrement {
   float: right;
   margin-top: 1em;
 }
-/* line 105, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 body .header .container .enregistrement li {
   padding-right: 1em;
   display: inline-block;
   color: #212121;
   font-size: 1em;
 }
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 body .header .container .enregistrement li i {
   padding-right: 1em;
 }
-/* line 113, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 body .header .container .enregistrement li a {
   color: #fff;
   display: inline-block;
@@ -172,55 +173,55 @@ body .header .container .enregistrement li a {
   padding: 6px 30px;
   font-weight: bold;
 }
-/* line 136, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 body .navbar {
   margin-bottom: 0px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 body .movies_nav {
   background: #FF8D1B;
 }
-/* line 146, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 body .movies_nav .navbar-default {
   background: none;
   border: none;
 }
-/* line 151, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 body .movies_nav .navbar-left {
   float: none !important;
 }
-/* line 155, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 body .movies_nav .navbar-nav {
   float: none;
   margin: 0;
 }
-/* line 160, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 body .movies_nav .navbar-nav li {
   float: left;
   border-right: 1px dotted #fff;
   width: 14.27%;
   text-align: center;
 }
-/* line 167, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 body .movies_nav .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 171, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 body .movies_nav .navbar-nav li a:hover {
   color: #fff;
   background-color: #212121;
 }
-/* line 176, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 body .movies_nav .navbar-nav li a:focus {
   color: #fff;
   background-color: #212121;
 }
-/* line 184, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 body .movies_nav .navbar-nav li:active {
   border-right: none;
 }
-/* line 191, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -245,7 +246,7 @@ body .movies_nav .navbar-nav .open .dropdown-menu {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.175);
 }
-/* line 217, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li {
   background-color: #FF8D1B;
   width: 100%;
@@ -253,24 +254,24 @@ body .movies_nav .navbar-nav .open .dropdown-menu li {
   border-right: 0px;
   padding: 10px 15px;
 }
-/* line 224, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li a {
   display: block;
 }
-/* line 228, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li a:hover {
   display: block;
   background-color: #FF8D1B;
 }
-/* line 233, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 body .movies_nav .navbar-nav .open .dropdown-menu li a:focus {
   background-color: #FF8D1B;
 }
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 body .movies_nav .navbar-collapse.collapse {
   width: 100%;
 }
-/* line 256, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 body section h4.latest-text {
   border-left: 5px solid #ff8d1b;
   font-size: 2em;
@@ -282,17 +283,17 @@ body section h4.latest-text {
   padding: 0.3em 0.5em;
   text-align: left;
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 body section ul#myTab {
   border: none;
   margin-bottom: 2em;
 }
-/* line 278, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 body section ul#myTab li {
   float: left;
   margin-bottom: -1px;
 }
-/* line 282, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 body section ul#myTab li a {
   background: #f3f1f1;
   border: none;
@@ -304,26 +305,26 @@ body section ul#myTab li a {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-/* line 294, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 body section ul#myTab li a:hover, body section ul#myTab li a:focus {
   background-color: #FF8D1B;
   border: none;
   border-radius: 0;
   color: #fff !important;
 }
-/* line 309, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 body .container {
   text-align: center;
 }
-/* line 314, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 body .container .date {
   text-align: left;
 }
-/* line 319, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 body .container .plusDeFilms {
   margin-top: 50px;
 }
-/* line 325, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 body .container .bt_plus {
   color: #fff;
   display: inline-block;
@@ -336,11 +337,11 @@ body .container .bt_plus {
   margin: auto;
   margin-bottom: 50px;
 }
-/* line 343, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 body .container .film .img-responsive {
   height: 230px;
 }
-/* line 349, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 body .container .film h6 a {
   margin-top: 10px !important;
   padding-bottom: 5px;
@@ -348,68 +349,86 @@ body .container .film h6 a {
   display: block;
   text-align: center;
 }
-/* line 360, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 body .container .film .details_films {
   margin-bottom: 30px;
   display: block;
 }
-/* line 365, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 body .container .film .date {
   font-size: 0.8em;
   float: left;
 }
-/* line 371, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 body .container .film .prix {
   font-size: 0.8em;
   color: #FF8D1B;
   float: right;
   padding-right: 20px;
 }
-/* line 379, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 body .container .film .col-md-2 {
   padding: 0px;
 }
-/* line 392, ../sass/screen.scss */
-body .contact {
-  margin-bottom: 3em;
-}
-/* line 396, ../sass/screen.scss */
-body .contact .carre_noir {
-  width: 23%;
-  background: #212121;
-  margin-right: 15px;
-  height: 200px;
+/* line 387, ../sass/screen.scss */
+body .container .carousel {
+  margin-bottom: 0;
+  margin-top: 40px;
   padding: 20px;
+  border: solid 1px #dadada;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  margin-left: 37px;
+}
+/* line 398, ../sass/screen.scss */
+body .container .carousel .col-md-2-5 {
+  position: relative;
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 406, ../sass/screen.scss */
+body .container .carousel .col-md-11 {
+  width: 90%;
+}
+
+/* line 427, ../sass/screen.scss */
+.contact .carre_noir {
+  background: #212121;
+  height: 220px;
+  padding: 15px;
+  padding-bottom: 15px;
   color: white;
   text-align: left;
 }
-/* line 406, ../sass/screen.scss */
-body .contact .carre_noir h2 {
+/* line 438, ../sass/screen.scss */
+.contact .carre_noir h2 {
   font-size: 20px;
 }
-/* line 408, ../sass/screen.scss */
-body .contact .carre_noir ul {
-  padding-top: 10px;
-}
-/* line 411, ../sass/screen.scss */
-body .contact .carre_noir ul li {
-  padding-top: 10px;
+/* line 444, ../sass/screen.scss */
+.contact .carre_noir ul li {
+  padding-top: 5px;
   font-size: 15px;
 }
-/* line 415, ../sass/screen.scss */
-body .contact .carre_noir ul li a {
+/* line 448, ../sass/screen.scss */
+.contact .carre_noir ul li a {
   color: white;
 }
-/* line 417, ../sass/screen.scss */
-body .contact .carre_noir ul li a:hover {
+/* line 450, ../sass/screen.scss */
+.contact .carre_noir ul li a:hover {
   color: #FF8D1B;
 }
-/* line 419, ../sass/screen.scss */
-body .contact .carre_noir ul li .btn:hover {
+/* line 452, ../sass/screen.scss */
+.contact .carre_noir ul li .btn:hover {
   color: white;
 }
-/* line 426, ../sass/screen.scss */
-body .contact .carre_noir .rond_orange {
+/* line 459, ../sass/screen.scss */
+.contact .carre_noir .rond_orange {
   width: 50px;
   height: 50px;
   -webkit-border-radius: 50px;
@@ -419,28 +438,65 @@ body .contact .carre_noir .rond_orange {
   text-align: center;
   line-height: 55px;
   margin: auto;
-  margin-top: -45px;
+  margin-top: -35px;
 }
-/* line 439, ../sass/screen.scss */
-body .contact .carre_noir .rond_orange i {
+/* line 472, ../sass/screen.scss */
+.contact .carre_noir .rond_orange i {
   font-size: 25px;
 }
-/* line 453, ../sass/screen.scss */
-body footer {
+
+/* line 483, ../sass/screen.scss */
+.form_bas {
+  margin-top: 32px;
+}
+/* line 487, ../sass/screen.scss */
+.form_bas .form-group {
+  padding: 5px;
+}
+/* line 491, ../sass/screen.scss */
+.form_bas .form-group input {
+  border-radius: 0px;
+}
+/* line 495, ../sass/screen.scss */
+.form_bas .form-group textarea {
+  border-radius: 0px;
+}
+/* line 500, ../sass/screen.scss */
+.form_bas .form-group input[type="text"] {
+  padding: 5px;
+}
+/* line 509, ../sass/screen.scss */
+.form_bas .btn-primary {
+  color: #fff;
+  background-color: black;
+  border-color: #2c0219;
+  border-radius: 0px;
+  border: 0px;
+  text-align: left;
+  float: left;
+  margin: 20px 0px 15px;
+}
+/* line 519, ../sass/screen.scss */
+.form_bas .btn-primary:hover {
+  background-color: #FF8D1B;
+}
+
+/* line 532, ../sass/screen.scss */
+footer {
   background: #212121;
   padding: 4em 0;
   color: white;
 }
-/* line 459, ../sass/screen.scss */
-body footer h2 {
+/* line 538, ../sass/screen.scss */
+footer h2 {
   font-size: 2em;
   color: #FF8D1B;
   text-transform: uppercase;
   font-style: normal;
   margin-bottom: .5em;
 }
-/* line 468, ../sass/screen.scss */
-body footer input[type="email"] {
+/* line 547, ../sass/screen.scss */
+footer input[type="email"] {
   outline: none;
   padding: 10px 10px;
   font-size: 14px;
@@ -449,8 +505,8 @@ body footer input[type="email"] {
   background: #fff;
   border: none;
 }
-/* line 478, ../sass/screen.scss */
-body footer input[type="submit"] {
+/* line 557, ../sass/screen.scss */
+footer input[type="submit"] {
   outline: none;
   width: 25%;
   background: #FF8D1B;
@@ -460,65 +516,78 @@ body footer input[type="submit"] {
   border: none;
   padding: 10px 0;
 }
-/* line 490, ../sass/screen.scss */
-body footer .footer_contour {
+/* line 569, ../sass/screen.scss */
+footer .footer_contour {
   border: 1px solid #fff;
   padding: 10px;
 }
-/* line 497, ../sass/screen.scss */
-body footer .footer_grille {
+/* line 576, ../sass/screen.scss */
+footer .footer_grille {
   padding-bottom: 2em;
   border-bottom: 1px solid #999;
   margin-bottom: 2em;
 }
-/* line 507, ../sass/screen.scss */
-body footer .footer_left p {
+/* line 586, ../sass/screen.scss */
+footer .footer_left p {
   color: #999;
   line-height: 1.8em;
 }
-/* line 518, ../sass/screen.scss */
-body footer .footer_right {
+/* line 597, ../sass/screen.scss */
+footer .footer_right {
   text-align: right;
 }
-/* line 522, ../sass/screen.scss */
-body footer .footer_right li {
+/* line 601, ../sass/screen.scss */
+footer .footer_right li {
   display: inline-block;
-  margin-left: 2em;
+  margin-left: 1em;
 }
-/* line 526, ../sass/screen.scss */
-body footer .footer_right li a {
+/* line 605, ../sass/screen.scss */
+footer .footer_right li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 542, ../sass/screen.scss */
-body .shop_movies .shop_haut {
+/* line 610, ../sass/screen.scss */
+footer .footer_right li a:hover {
+  color: #FF8D1B;
+}
+
+/* line 623, ../sass/screen.scss */
+.shop_movies .shop_haut {
   padding-bottom: 15px;
   color: white;
   text-align: left;
 }
-/* line 548, ../sass/screen.scss */
-body .shop_movies .shop_haut .title {
+/* line 629, ../sass/screen.scss */
+.shop_movies .shop_haut .title {
   text-transform: uppercase;
   font-size: 1.3em;
   color: #212121;
   font-weight: bold;
   padding-bottom: 1em;
 }
-/* line 556, ../sass/screen.scss */
-body .shop_movies .shop_haut .image_gauche {
+/* line 637, ../sass/screen.scss */
+.shop_movies .shop_haut .image_gauche {
   padding: 0px;
 }
-/* line 560, ../sass/screen.scss */
-body .shop_movies .shop_haut .rectangle_orange {
+/* line 641, ../sass/screen.scss */
+.shop_movies .shop_haut .rectangle_orange {
   background: #FF8D1B;
-  min-height: 312px;
-  padding: 3em 3em 3em;
+  min-height: 321px;
+  padding: 3em 0 0 3em;
   margin-bottom: 15px;
   width: 48.6%;
 }
-/* line 568, ../sass/screen.scss */
-body .shop_movies .shop_haut .rectangle_orange .slides img {
+/* line 649, ../sass/screen.scss */
+.shop_movies .shop_haut .rectangle_orange .slides img {
   width: 100%;
   display: block;
+}
+/* line 654, ../sass/screen.scss */
+.shop_movies .shop_haut .rectangle_orange a {
+  color: black;
+}
+/* line 656, ../sass/screen.scss */
+.shop_movies .shop_haut .rectangle_orange p {
+  margin: 0 0 10px;
 }

@@ -92,6 +92,7 @@ body {
 					    width: 22%;
 					    border-top-right-radius: 25px;
 					    border-bottom-right-radius: 25px;
+					    margin-top: 8px;
 					}
 					
 				}
@@ -358,9 +359,9 @@ body {
 						}
 
 						.details_films {
-											margin-bottom: 30px;
-											display: block;
-										}
+								margin-bottom: 30px;
+								display: block;
+								}
 						
 						.date {
 							 font-size: 0.8em;
@@ -383,6 +384,36 @@ body {
 
 					}
 
+				.carousel {
+				    margin-bottom: 0;
+				    margin-top: 40px;
+				    padding: 20px;
+				    border: solid 1px #dadada;
+				 	 display: -webkit-flex; /* Safari */
+				    -webkit-align-items: center; /* Safari 7.0+ */
+				    display: flex;
+				    align-items: center;
+				    margin-left: 37px;
+
+				    	.col-md-2-5 {
+				    		 position: relative;
+							 float: left;
+							 width: 20%;
+							 padding-left: 15px;
+							 padding-right: 15px;
+						}
+
+						.col-md-11{
+
+							
+							width: 90%;
+
+						}		
+
+				}
+				
+			}
+					
 
 
 		}
@@ -390,26 +421,28 @@ body {
 		//contact 
 	
 		.contact {
-
-			margin-bottom: 3em;	
+			
+				
 
 			.carre_noir {
 				
-				width: 23%;
+				
 				background: #212121;
-				margin-right: 15px;
-				height: 200px;
-				padding:20px;
+				
+				height: 220px;
+				padding:15px;
+				padding-bottom: 15px;
 				color: white;
 				text-align: left;
 
 					h2{font-size: 20px;}
 
 					ul {
-						padding-top: 10px;
+
+						
 
 						li{
-							padding-top: 10px;
+							padding-top: 5px;
 							font-size: 15px;
 
 								a {
@@ -434,7 +467,7 @@ body {
 						text-align: center;
 						line-height: 55px;
 						margin: auto;
-						margin-top: -45px;
+						margin-top: -35px;
 
 							i {
 								font-size: 25px;
@@ -446,7 +479,53 @@ body {
 				}
 
 
+		//formulaire
+					.form_bas{
 
+						margin-top: 32px;
+
+						.form-group {
+								
+							padding: 5px;
+
+							input {
+								border-radius: 0px;	
+							}
+
+							textarea {
+								border-radius: 0px;	
+							}
+
+
+							input[type="text"]{
+								padding: 5px;
+	
+							}
+
+
+						}
+	
+
+							.btn-primary {
+								color: #fff;
+								background-color: black;
+								border-color: #2c0219;
+								border-radius: 0px;
+								border: 0px;
+								text-align: left;
+								float: left;
+								margin: 20px 0px 15px;
+
+										&:hover{
+										background-color: $orange;
+										}
+
+
+									}
+
+
+
+							}
 
 		
 
@@ -521,12 +600,14 @@ body {
 
 					    	li {
 							    display: inline-block;
-							    margin-left: 2em;
+							    margin-left: 1em;
 
 									    a {
 										    color: #fff;
 										    text-decoration: none;
 										    text-transform: uppercase;
+
+										    &:hover {color:$orange;}
 										 }
 
 							 }
@@ -559,8 +640,8 @@ body {
 							
 							.rectangle_orange {
 						    background: $orange;
-						    min-height: 312px;
-						    padding: 3em 3em 3em;
+						    min-height: 321px;
+						    padding: 3em 0 0 3em;
 						    margin-bottom: 15px;
 						    width: 48.6%;
 
@@ -570,8 +651,16 @@ body {
 								    display: block;
 							}
 
+							a {color:black;}
 
+							p {
+							    margin: 0 0 10px;
+							}
+						
 						}
+
+
+
 					.shop_bas{
 
 
@@ -580,10 +669,7 @@ body {
 
 				}
 
-				
-		
-}
-
+	
 
 
 
