@@ -63,7 +63,7 @@ span.psw {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modal-login {
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 2px solid #ff8d1b;
